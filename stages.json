@@ -1,0 +1,201 @@
+[
+  {
+    "id": 1,
+    "name": "Matemáticas Fundamentales",
+    "duration": "2 meses",
+    "folder": "etapa-01-matematicas",
+    "color": "#6366f1",
+    "exercises": [
+      {"id": "EJ-01-001", "title": "Operaciones vectoriales manuales"},
+      {"id": "EJ-01-002", "title": "Multiplicación matricial"},
+      {"id": "EJ-01-003", "title": "Determinante e inversa"},
+      {"id": "EJ-01-004", "title": "Eigenvalores 2x2"},
+      {"id": "EJ-01-005", "title": "SVD conceptual"},
+      {"id": "EJ-01-006", "title": "Gradiente de MSE"},
+      {"id": "EJ-01-007", "title": "Regla de la cadena"},
+      {"id": "EJ-01-008", "title": "Derivadas parciales"},
+      {"id": "EJ-01-009", "title": "Punto de mínimo"},
+      {"id": "EJ-01-010", "title": "Bayes — test médico"},
+      {"id": "EJ-01-011", "title": "MLE para Normal"},
+      {"id": "EJ-01-012", "title": "Distribuciones en contexto real"},
+      {"id": "EJ-01-013", "title": "Correlación de Pearson"},
+      {"id": "EJ-01-014", "title": "PROYECTO: derivar Normal Equation"}
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Programación Matemática en Go",
+    "duration": "1 mes",
+    "folder": "etapa-02-go-matematicas",
+    "color": "#8b5cf6",
+    "exercises": [
+      {"id": "EJ-02-001", "title": "Tipo Vector básico"},
+      {"id": "EJ-02-002", "title": "Operaciones adicionales (mean, sum, max)"},
+      {"id": "EJ-02-003", "title": "Tipo Matrix básico"},
+      {"id": "EJ-02-004", "title": "Determinante"},
+      {"id": "EJ-02-005", "title": "Inversa Gauss-Jordan"},
+      {"id": "EJ-02-006", "title": "Eliminación Gaussiana"},
+      {"id": "EJ-02-007", "title": "LU Decomposition"},
+      {"id": "EJ-02-008", "title": "QR Gram-Schmidt"},
+      {"id": "EJ-02-009", "title": "Eigenvalor dominante (Power Iteration)"},
+      {"id": "EJ-02-010", "title": "Stats básicas (mean, var, std, cov)"},
+      {"id": "EJ-02-011", "title": "PCA manual 2D"},
+      {"id": "EJ-02-012", "title": "PROYECTO: resolver sistema Ax=b (3 métodos)"}
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Machine Learning Clásico",
+    "duration": "2 meses",
+    "folder": "etapa-03-ml-clasico",
+    "color": "#06b6d4",
+    "exercises": [
+      {"id": "EJ-03-001", "title": "Linear Regression — Gradient Descent"},
+      {"id": "EJ-03-002", "title": "Linear Regression — Normal Equation"},
+      {"id": "EJ-03-003", "title": "Ridge Regularization"},
+      {"id": "EJ-03-004", "title": "Logistic Regression"},
+      {"id": "EJ-03-005", "title": "Métricas de clasificación"},
+      {"id": "EJ-03-006", "title": "KNN Clasificador"},
+      {"id": "EJ-03-007", "title": "Efecto del K en KNN"},
+      {"id": "EJ-03-008", "title": "Gaussian Naive Bayes"},
+      {"id": "EJ-03-009", "title": "Entropía e Information Gain"},
+      {"id": "EJ-03-010", "title": "Decision Tree completo"},
+      {"id": "EJ-03-011", "title": "Random Forest"},
+      {"id": "EJ-03-012", "title": "SVM lineal con hinge loss"},
+      {"id": "EJ-03-013", "title": "Cross-Validation"},
+      {"id": "EJ-03-014", "title": "PROYECTO: comparación de modelos en Iris"}
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Mini Scikit-Learn en Go",
+    "duration": "1 mes",
+    "folder": "etapa-04-mini-sklearn",
+    "color": "#10b981",
+    "exercises": [
+      {"id": "EJ-04-001", "title": "Interfaz Model"},
+      {"id": "EJ-04-002", "title": "Interfaz Transformer"},
+      {"id": "EJ-04-003", "title": "StandardScaler"},
+      {"id": "EJ-04-004", "title": "MinMaxScaler"},
+      {"id": "EJ-04-005", "title": "OneHotEncoder"},
+      {"id": "EJ-04-006", "title": "Pipeline básico"},
+      {"id": "EJ-04-007", "title": "KFold"},
+      {"id": "EJ-04-008", "title": "CrossValidate"},
+      {"id": "EJ-04-009", "title": "GridSearch"},
+      {"id": "EJ-04-010", "title": "CSV Loader"},
+      {"id": "EJ-04-011", "title": "Dataset Iris builtin"},
+      {"id": "EJ-04-012", "title": "PROYECTO: reproducir Pipeline de sklearn en Go"}
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Python Científico",
+    "duration": "1 mes",
+    "folder": "etapa-05-python",
+    "color": "#f59e0b",
+    "exercises": [
+      {"id": "EJ-05-001", "title": "Reproducir Etapa 2 en NumPy"},
+      {"id": "EJ-05-002", "title": "Broadcasting — distancias"},
+      {"id": "EJ-05-003", "title": "EDA básico — Titanic"},
+      {"id": "EJ-05-004", "title": "Limpieza de datos"},
+      {"id": "EJ-05-005", "title": "GroupBy avanzado"},
+      {"id": "EJ-05-006", "title": "Visualizar modelos"},
+      {"id": "EJ-05-007", "title": "Matriz de correlación — heatmap"},
+      {"id": "EJ-05-008", "title": "Reproducir golearn en Python"},
+      {"id": "EJ-05-009", "title": "Pipeline completo con GridSearchCV"},
+      {"id": "EJ-05-010", "title": "PROYECTO: EDA + modelado Housing Prices"}
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Redes Neuronales desde Cero",
+    "duration": "2 meses",
+    "folder": "etapa-06-redes-neuronales",
+    "color": "#ef4444",
+    "exercises": [
+      {"id": "EJ-06-001", "title": "Funciones de activación"},
+      {"id": "EJ-06-002", "title": "Una neurona completa con backprop"},
+      {"id": "EJ-06-003", "title": "Capa densa"},
+      {"id": "EJ-06-004", "title": "Red completa"},
+      {"id": "EJ-06-005", "title": "XOR solver"},
+      {"id": "EJ-06-006", "title": "SGD con Momentum"},
+      {"id": "EJ-06-007", "title": "Optimizador Adam"},
+      {"id": "EJ-06-008", "title": "Cargar MNIST"},
+      {"id": "EJ-06-009", "title": "MLP para MNIST (>95%)"},
+      {"id": "EJ-06-010", "title": "Logging de entrenamiento"},
+      {"id": "EJ-06-011", "title": "PROYECTO: Dropout en MNIST"}
+    ]
+  },
+  {
+    "id": 7,
+    "name": "PyTorch",
+    "duration": "1 mes",
+    "folder": "etapa-07-pytorch",
+    "color": "#f97316",
+    "exercises": [
+      {"id": "EJ-07-001", "title": "Autograd manual vs PyTorch"},
+      {"id": "EJ-07-002", "title": "Custom autograd function"},
+      {"id": "EJ-07-003", "title": "MNIST con nn.Module (>98%)"},
+      {"id": "EJ-07-004", "title": "Training loop completo"},
+      {"id": "EJ-07-005", "title": "CNN para CIFAR-10 (>80%)"},
+      {"id": "EJ-07-006", "title": "Visualizar feature maps"},
+      {"id": "EJ-07-007", "title": "Character-level RNN"},
+      {"id": "EJ-07-008", "title": "Vanishing gradient RNN vs LSTM"},
+      {"id": "EJ-07-009", "title": "PROYECTO: Transfer Learning ResNet"}
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Transformers",
+    "duration": "1 mes",
+    "folder": "etapa-08-transformers",
+    "color": "#ec4899",
+    "exercises": [
+      {"id": "EJ-08-001", "title": "Scaled Dot-Product Attention"},
+      {"id": "EJ-08-002", "title": "Visualizar attention weights"},
+      {"id": "EJ-08-003", "title": "MultiHeadAttention desde cero"},
+      {"id": "EJ-08-004", "title": "Sinusoidal Positional Encoding"},
+      {"id": "EJ-08-005", "title": "Transformer Block completo"},
+      {"id": "EJ-08-006", "title": "nanoGPT"},
+      {"id": "EJ-08-007", "title": "Entrenar nanoGPT en Shakespeare"},
+      {"id": "EJ-08-008", "title": "Generación de texto con temperatura"}
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Data Science",
+    "duration": "1 mes",
+    "folder": "etapa-09-data-science",
+    "color": "#14b8a6",
+    "exercises": [
+      {"id": "EJ-09-001", "title": "Window Functions SQL"},
+      {"id": "EJ-09-002", "title": "CTEs complejos"},
+      {"id": "EJ-09-003", "title": "Encoding pipeline"},
+      {"id": "EJ-09-004", "title": "Feature interactions"},
+      {"id": "EJ-09-005", "title": "Target Encoding k-fold"},
+      {"id": "EJ-09-006", "title": "EDA completo — House Prices"},
+      {"id": "EJ-09-007", "title": "XGBoost baseline"},
+      {"id": "EJ-09-008", "title": "Optuna hyperparameter search"},
+      {"id": "EJ-09-009", "title": "Feature Importance + SHAP"},
+      {"id": "EJ-09-010", "title": "PROYECTO: Kaggle House Prices top 30%"}
+    ]
+  },
+  {
+    "id": 10,
+    "name": "MLOps",
+    "duration": "1 mes",
+    "folder": "etapa-10-mlops",
+    "color": "#64748b",
+    "exercises": [
+      {"id": "EJ-10-001", "title": "MLflow primer experimento"},
+      {"id": "EJ-10-002", "title": "MLflow Model Registry"},
+      {"id": "EJ-10-003", "title": "FastAPI endpoint /predict"},
+      {"id": "EJ-10-004", "title": "Tests de la API"},
+      {"id": "EJ-10-005", "title": "Dockerfile para modelo"},
+      {"id": "EJ-10-006", "title": "Docker Compose"},
+      {"id": "EJ-10-007", "title": "DVC pipeline reproducible"},
+      {"id": "EJ-10-008", "title": "GitHub Actions CI/CD"},
+      {"id": "EJ-10-009", "title": "PROYECTO: pipeline completo de producción"}
+    ]
+  }
+]
